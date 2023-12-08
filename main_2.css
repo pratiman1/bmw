@@ -1,0 +1,63 @@
+/* styles.css */
+
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('/bmw/img/bmw-gc94481240_1920.jpg');
+}
+
+.logo img {
+    width: 70px;
+    position: sticky;   
+    display: inline-block; 
+
+}
+
+.text-center {
+    text-align: center!important;
+    color: white;
+}
+/* Navigation Bar Styles */
+.navbar {
+    background-color: #f8f9fa; /* Light gray background */
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar-nav .nav-item {
+    margin-right: 15px;
+}
+
+/* View Models Section Styles */
+.card {
+    margin-bottom: 30px;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.card-text {
+    color: #6c757d; /* Bootstrap secondary text color */
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: #6c757d;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .jumbotron {
+        padding: 80px 0;
+    }
+}

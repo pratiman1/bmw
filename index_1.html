@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="main_1.css">
+    <link rel="icon" href="/bmw/img/BMW_logo_(gray).svg.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+    <title>Your BMW-Inida</title>
+</head>
+<body>
+
+    
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="index_1.html">
+        <div class="logo">
+            <img src="/bmw/img/BMW_logo_(gray).svg.png" alt="">
+        </div>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="index_1.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="view2.html">Models</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="about.html">About Us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Jumbotron / Hero Section -->
+<div class="jumbotron">
+    <div class="container">
+        <h1 class="display-4">Welcome to Your Brand</h1>
+        <p class="lead">Explore our latest models and experience driving pleasure like never before.</p>
+        <a class="btn btn-primary btn-lg" href="view2.html" role="button">View Models</a>
+    </div>
+</div>
+
+<!-- Featured Models Section with Bootstrap Carousel -->
+<div class="container">
+    <h2 class="text-center mb-4">View Models</h2>
+    <div id="modelCarousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <!-- Model 1 -->
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="/bmw/img/BMW X3 (2022).jpeg" class="card-img-top" alt="Model 1">
+                            <div class="card-body">
+                                <h5 class="card-title">BMW X1</h5>
+                                <p class="card-text">PETROL - DIESEL</p>
+                                <p class="card-text">Starting from ₹ 4,590,000</p>
+                                <div class="container mt-5">
+                                    <div class="alert-button" data-text="More Info Message">
+                                        <i class="fas fa-info-circle" data-toggle="modal" data-target="#moreInfoModal"></i>
+                                        <span class="more-info-text">More Info</span>
+                                        <!-- <i class="fas fa-times close-icon"></i> -->
+                                    </div>
+                                </div>
+                                <a href="lr1.html" class="btn btn-primary">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Add more model cards as needed -->
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="/bmw/img/2024 BMW X1 M35i F48 - Stunning HD Photos, Videos, Specs, Features & Price - DailyRevs.jpeg" class="card-img-top" alt="Model 1">
+                            <div class="card-body">
+                                <h5 class="card-title">BMW X3</h5>
+                                <p class="card-text">PETROL - DIESEL</p>
+                                <p class="card-text">Starting from ₹ 4,590,000</p>
+                                <div class="container mt-5">
+                                    <div class="alert-button" data-text="More Info Message">
+                                        <i class="fas fa-info-circle" data-toggle="modal" data-target="#moreInfoModal"></i>
+                                        <span class="more-info-text">More Info</span>
+                                        <!-- <i class="fas fa-times close-icon"></i> -->
+                                    </div>
+                                </div>
+                                <a href="lr2.html" class="btn btn-primary">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Add more model cards as needed -->
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="/bmw/img/BMW X4.jpeg" class="card-img-top" alt="Model 1">
+                            <div class="card-body">
+                                <h5 class="card-title">BMW X4</h5>
+                                <p class="card-text">PETROL - DIESEL</p>
+                                <p class="card-text">Starting from ₹ 4,590,000</p>
+                                <div class="container mt-5">
+                                    <div class="alert-button" data-text="More Info Message">
+                                        <i class="fas fa-info-circle " data-toggle="modal" data-target="#moreInfoModal" ></i>
+                                        <span class="more-info-text">More Info</span>
+                                        <!-- <i class="fas fa-times close-icon"></i> -->
+                                    </div>
+                                </div>
+                                <a href="lr3.html" class="btn btn-primary">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Add more model cards as needed -->
+                    
+                </div>
+                
+            </div>
+            <!-- Add more carousel items as needed -->
+            
+        </div>
+        <a class="carousel-control-prev" href="#modelCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#modelCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="moreInfoModal" tabindex="-1" role="dialog" aria-labelledby="moreInfoModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="moreInfoModalLabel">More Information</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <li>Powerful and efficient engines</li>
+                <li>Luxurious interior with high-quality materials</li>
+                <li>Advanced infotainment and connectivity options</li>
+                <li>Intelligent safety features</li>
+                <li>Spacious cargo area for its class</li>
+             </div>
+
+             <div class="modal-body">
+                <li>Dynamic and efficient engine options</li>
+                <li>Premium interior with advanced technology</li>
+                <li>Intelligent safety and driver assistance systems</li>
+                <li>Enhanced connectivity and infotainment options</li>
+                <li>Signature BMW design and craftsmanship</li>
+            </div>
+
+            <div class="modal-body">
+                <li>Sporty and aerodynamic design</li>
+                <li>Premium materials and craftsmanship in the interior</li>
+                <li>Powerful and efficient engine options</li>
+                <li>Advanced technology and connectivity features</li>
+                <li>Dynamic driving experience with precise handling</li>
+            </div>
+
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="container">
+        <span class="text-muted">© 2023 Your Brand. All rights reserved.</span>
+    </div>
+</footer>
+
+<!-- Bootstrap JS and jQuery (needed for Bootstrap functionality) -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
