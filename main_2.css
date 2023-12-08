@@ -3,7 +3,7 @@
 /* Global Styles */
 body {
     font-family: 'Arial', sans-serif;
-    background-image: url('/bmw/img/bmw-gc94481240_1920.jpg');
+    background-image: url('./bmw/img/bmw-gc94481240_1920.jpg');
 }
 
 .logo img {
