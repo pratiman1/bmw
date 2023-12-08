@@ -51,7 +51,7 @@ body {
 }
 /* Jumbotron / Hero Section Styles */
 .jumbotron {
-    background-image: url('./bmw/img/bmw-gc94481240_1920.jpg'); /* Add your background image */
+    background-image: url('./img/bmw-gc94481240_1920.jpg'); /* Add your background image */
     background-size: cover;
     color: #fff;
     text-align: center;
